@@ -1,6 +1,6 @@
-hw:
+hw: hello_world.cpp
 	g++ -o hw hello_world.cpp && ./hw
-pi:
+pi: estimate-pi.cpp
 	g++ -o pi estimate-pi.cpp && ./pi
-clean:
+clean: 
 	rm -f hw pi
